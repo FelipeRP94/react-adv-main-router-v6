@@ -8,7 +8,6 @@ import {
 } from "../interfaces/interfaces";
 import { useProduct } from "../hooks/useProduct";
 import styles from "../styles/styles.module.css";
-import "../styles/custom-styles.css";
 
 export const ProductContext = createContext({} as ProductContextProps);
 const { Provider } = ProductContext;
